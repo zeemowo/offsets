@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-12-10 19:20:07.326550200 UTC
+// 2025-12-22 05:17:06.837931 UTC
 
 namespace CS2Dumper.Interfaces {
     // Module: animationsystem.dll
@@ -20,7 +20,7 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: crashhandler64.dll
     public static class Crashhandler64Dll {
-        public static readonly nint  = unchecked((nint)0xFFFF8002FD540007);
+        public static readonly nint  = unchecked((nint)0xFFFF8002FDE90007);
     }
     // Module: engine2.dll
     public static class Engine2Dll {
@@ -185,28 +185,28 @@ namespace CS2Dumper.Interfaces {
     }
     // Module: steamclient64.dll
     public static class Steamclient64Dll {
-        public static readonly nint CLIENTENGINE_INTERFACE_VERSION005 = unchecked((nint)0xFFFFFFFF8BB280AA);
-        public const nint IVALIDATE001 = 0x15618C8;
-        public const nint SteamClient006 = 0x155EDE0;
-        public const nint SteamClient007 = 0x155EDE8;
-        public const nint SteamClient008 = 0x155EDF0;
-        public const nint SteamClient009 = 0x155EDF8;
-        public const nint SteamClient010 = 0x155EE00;
-        public const nint SteamClient011 = 0x155EE08;
-        public const nint SteamClient012 = 0x155EE10;
-        public const nint SteamClient013 = 0x155EE18;
-        public const nint SteamClient014 = 0x155EE20;
-        public const nint SteamClient015 = 0x155EE28;
-        public const nint SteamClient016 = 0x155EE30;
-        public const nint SteamClient017 = 0x155EE38;
-        public const nint SteamClient018 = 0x155EE40;
-        public const nint SteamClient019 = 0x155EE48;
-        public const nint SteamClient020 = 0x155EE50;
-        public const nint SteamClient021 = 0x155EE58;
-        public const nint SteamClient022 = 0x155EE60;
-        public const nint SteamClient023 = 0x155EE68;
-        public const nint p2pvoice002 = 0x14E1E7F;
-        public const nint p2pvoicesingleton002 = 0x153B0F0;
+        public static readonly nint CLIENTENGINE_INTERFACE_VERSION005 = unchecked((nint)0xFFFFFFFF8BB4C25A);
+        public const nint IVALIDATE001 = 0x1665ED8;
+        public const nint SteamClient006 = 0x16633E0;
+        public const nint SteamClient007 = 0x16633E8;
+        public const nint SteamClient008 = 0x16633F0;
+        public const nint SteamClient009 = 0x16633F8;
+        public const nint SteamClient010 = 0x1663400;
+        public const nint SteamClient011 = 0x1663408;
+        public const nint SteamClient012 = 0x1663410;
+        public const nint SteamClient013 = 0x1663418;
+        public const nint SteamClient014 = 0x1663420;
+        public const nint SteamClient015 = 0x1663428;
+        public const nint SteamClient016 = 0x1663430;
+        public const nint SteamClient017 = 0x1663438;
+        public const nint SteamClient018 = 0x1663440;
+        public const nint SteamClient019 = 0x1663448;
+        public const nint SteamClient020 = 0x1663450;
+        public const nint SteamClient021 = 0x1663458;
+        public const nint SteamClient022 = 0x1663460;
+        public const nint SteamClient023 = 0x1663468;
+        public const nint p2pvoice002 = 0x14E4D9F;
+        public const nint p2pvoicesingleton002 = 0x163F0F0;
     }
     // Module: tier0.dll
     public static class Tier0Dll {
