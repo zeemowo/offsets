@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2025-12-22 05:17:06.837931 UTC
+// 2026-01-20 22:17:27.279705900 UTC
 
 #pragma once
 
@@ -22,10 +22,6 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t Source2ClientConfig001 = 0x1DC5DD0;
             constexpr std::ptrdiff_t Source2ClientPrediction001 = 0x1BEEE40;
             constexpr std::ptrdiff_t Source2ClientUI001 = 0x1C01670;
-        }
-        // Module: crashhandler64.dll
-        namespace crashhandler64_dll {
-            constexpr std::ptrdiff_t  = 0xFFFF8002FDE90007;
         }
         // Module: engine2.dll
         namespace engine2_dll {
@@ -190,7 +186,7 @@ namespace cs2_dumper {
         }
         // Module: steamclient64.dll
         namespace steamclient64_dll {
-            constexpr std::ptrdiff_t CLIENTENGINE_INTERFACE_VERSION005 = 0xFFFFFFFF8BB4C25A;
+            constexpr std::ptrdiff_t CLIENTENGINE_INTERFACE_VERSION005 = 0xFFFFFFFF8BB4C32A;
             constexpr std::ptrdiff_t IVALIDATE001 = 0x1665ED8;
             constexpr std::ptrdiff_t SteamClient006 = 0x16633E0;
             constexpr std::ptrdiff_t SteamClient007 = 0x16633E8;
