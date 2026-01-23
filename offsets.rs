@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-23 18:13:55.873915800 UTC
+// 2026-01-23 20:31:26.965647400 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -8,13 +8,15 @@ pub mod cs2_dumper {
         // Module: client.dll
         pub mod client_dll {
             pub const dwCSGOInput: usize = 0x23113E0;
-            pub const dwEntityList: usize = 0x21C3AF8;
+            pub const dwEntityList: usize = 0x24A6B48;
+            pub const dwGameEntitySystem: usize = 0x24A6B48;
             pub const dwGameEntitySystem_highestEntityIndex: usize = 0x20A0;
             pub const dwGameRules: usize = 0x23025F0;
             pub const dwGlobalVars: usize = 0x20562A8;
             pub const dwGlowManager: usize = 0x2302600;
             pub const dwLocalPlayerController: usize = 0x22EBA28;
             pub const dwLocalPlayerPawn: usize = 0x2061850;
+            pub const dwPlantedC4: usize = 0x230EB80;
             pub const dwPrediction: usize = 0x2061760;
             pub const dwSensitivity: usize = 0x2303128;
             pub const dwSensitivity_sensitivity: usize = 0x58;
@@ -26,10 +28,12 @@ pub mod cs2_dumper {
         // Module: engine2.dll
         pub mod engine2_dll {
             pub const dwBuildNumber: usize = 0x606504;
+            pub const dwNetworkGameClient: usize = 0x900FF0;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x378;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
             pub const dwNetworkGameClient_localPlayer: usize = 0xF8;
+            pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
             pub const dwWindowHeight: usize = 0x9053B4;
@@ -46,6 +50,7 @@ pub mod cs2_dumper {
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
             pub const dwSoundSystem: usize = 0x4F3470;
+            pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }
 }

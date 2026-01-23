@@ -1,17 +1,19 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-23 18:13:55.873915800 UTC
+// 2026-01-23 20:31:26.965647400 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
     public static class ClientDll {
         public const nint dwCSGOInput = 0x23113E0;
-        public const nint dwEntityList = 0x21C3AF8;
+        public const nint dwEntityList = 0x24A6B48;
+        public const nint dwGameEntitySystem = 0x24A6B48;
         public const nint dwGameEntitySystem_highestEntityIndex = 0x20A0;
         public const nint dwGameRules = 0x23025F0;
         public const nint dwGlobalVars = 0x20562A8;
         public const nint dwGlowManager = 0x2302600;
         public const nint dwLocalPlayerController = 0x22EBA28;
         public const nint dwLocalPlayerPawn = 0x2061850;
+        public const nint dwPlantedC4 = 0x230EB80;
         public const nint dwPrediction = 0x2061760;
         public const nint dwSensitivity = 0x2303128;
         public const nint dwSensitivity_sensitivity = 0x58;
@@ -23,10 +25,12 @@ namespace CS2Dumper.Offsets {
     // Module: engine2.dll
     public static class Engine2Dll {
         public const nint dwBuildNumber = 0x606504;
+        public const nint dwNetworkGameClient = 0x900FF0;
         public const nint dwNetworkGameClient_clientTickCount = 0x378;
         public const nint dwNetworkGameClient_deltaTick = 0x24C;
         public const nint dwNetworkGameClient_isBackgroundMap = 0x2C141F;
         public const nint dwNetworkGameClient_localPlayer = 0xF8;
+        public const nint dwNetworkGameClient_maxClients = 0x240;
         public const nint dwNetworkGameClient_serverTickCount = 0x24C;
         public const nint dwNetworkGameClient_signOnState = 0x230;
         public const nint dwWindowHeight = 0x9053B4;
@@ -43,5 +47,6 @@ namespace CS2Dumper.Offsets {
     // Module: soundsystem.dll
     public static class SoundsystemDll {
         public const nint dwSoundSystem = 0x4F3470;
+        public const nint dwSoundSystem_engineViewData = 0x7C;
     }
 }
