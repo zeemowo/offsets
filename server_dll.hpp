@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-01-25 20:32:28.119208900 UTC
+// 2026-02-03 23:56:48.939530200 UTC
 
 #pragma once
 
@@ -11276,7 +11276,7 @@ namespace cs2_dumper {
             namespace CPointPulse {
             }
             // Parent: CBaseCSGrenadeProjectile
-            // Field count: 4
+            // Field count: 3
             //
             // Metadata:
             // NetworkVarNames: m_bIsIncGrenade (bool)
@@ -11284,7 +11284,6 @@ namespace cs2_dumper {
                 constexpr std::ptrdiff_t m_bIsIncGrenade = 0xBB0; // bool
                 constexpr std::ptrdiff_t m_bDetonated = 0xBC8; // bool
                 constexpr std::ptrdiff_t m_stillTimer = 0xBD0; // IntervalTimer
-                constexpr std::ptrdiff_t m_bHasBouncedOffPlayer = 0xCB0; // bool
             }
             // Parent: CBaseFilter
             // Field count: 1
